@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../Retest_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../Retest_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../Retest_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1646894747" Type="User" Language="SFX" Hash="{C7342E77-FBBC-3AE3-4244-B9996E92D2B9}">
+			<ShortName>GameplayLoop</ShortName>
+			<Path>GameplayLoop.bnk</Path>
+			<Media>
+				<File Id="345944612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RoboSuccess-002.wav</ShortName>
+					<CachePath>SFX/RoboSuccess-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="762526443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DeliverComplete.wav</ShortName>
+					<CachePath>SFX/DeliverComplete_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1573350443" Name="testSound1" DurationType="OneShot" DurationMin="3.568479" DurationMax="3.568479">
+					<MediaRefs>
+						<MediaRef Id="762526443"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1573350440" Name="testSound2" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="345944612"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{68983FEE-EA3C-9BC4-D969-F99BE98FBA23}</FileHash>
+</SoundBanksInfo>

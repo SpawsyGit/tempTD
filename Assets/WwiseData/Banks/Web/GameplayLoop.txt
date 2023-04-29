@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1573350440	testSound2			\Default Work Unit\UI\testSound2	
+	1573350443	testSound1			\Default Work Unit\UI\testSound1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	345944612	testSound2	D:\Game_Production\UnityProjects\Retest\Retest_WwiseProject\.cache\Web\SFX\RoboSuccess-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\testSound2		384096
+	762526443	testSound1	D:\Game_Production\UnityProjects\Retest\Retest_WwiseProject\.cache\Web\SFX\DeliverComplete_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\testSound1		685244
+
